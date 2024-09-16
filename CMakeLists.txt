@@ -5,7 +5,8 @@ set(PROJECT_NAME myServerDB)
 project(${PROJECT_NAME})
 
 add_executable(${PROJECT_NAME} 
-                src/main.cpp)
+                src/main.cpp 
+                src/functions.h)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
 
